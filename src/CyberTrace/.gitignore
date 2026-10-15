@@ -1,0 +1,34 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+backend/.pytest_cache/
+backend/.ruff_cache/
+backend/cybertrace.db
+backend/storage/evidence/*
+!backend/storage/evidence/.gitkeep
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+
+# Env files
+.env
+backend/.env
+!*.env.example
+
+# Local verification output
+backend/*.log
+backend/fb*.txt
+backend/full_test*.log
+
+# Reports generated at runtime
+backend/storage/reports/*
+!backend/storage/reports/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

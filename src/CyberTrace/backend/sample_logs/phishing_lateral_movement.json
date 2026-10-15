@@ -1,0 +1,42 @@
+[
+  {
+    "TimeCreated": "2026-10-10T04:10:02Z",
+    "Id": 4624,
+    "LevelDisplayName": "Information",
+    "ProviderName": "Microsoft-Windows-Security-Auditing",
+    "UserId": "CORP\\jdoe",
+    "Message": "An account was successfully logged on. Logon Type: 10 (RemoteInteractive)"
+  },
+  {
+    "TimeCreated": "2026-10-10T04:11:47Z",
+    "Id": 4688,
+    "LevelDisplayName": "Information",
+    "ProviderName": "Microsoft-Windows-Security-Auditing",
+    "UserId": "CORP\\jdoe",
+    "Message": "A new process has been created: powershell.exe -enc <base64-removed>"
+  },
+  {
+    "TimeCreated": "2026-10-10T04:12:05Z",
+    "Id": 4688,
+    "LevelDisplayName": "Warning",
+    "ProviderName": "Microsoft-Windows-Security-Auditing",
+    "UserId": "CORP\\jdoe",
+    "Message": "A new process has been created: whoami.exe /all"
+  },
+  {
+    "TimeCreated": "2026-10-10T03:12:30Z",
+    "Id": 4720,
+    "LevelDisplayName": "Warning",
+    "ProviderName": "Microsoft-Windows-Security-Auditing",
+    "UserId": "CORP\\jdoe",
+    "Message": "A user account was created: svc_backup -- NOTE: this host's clock was later found to be running fast; this timestamp predates the triggering logon and is a known clock-skew inconsistency used to exercise skew-handling."
+  },
+  {
+    "TimeCreated": "2026-10-10T04:13:50Z",
+    "Id": 4732,
+    "LevelDisplayName": "Error",
+    "ProviderName": "Microsoft-Windows-Security-Auditing",
+    "UserId": "CORP\\jdoe",
+    "Message": "A member was added to a security-enabled local group: Administrators <- svc_backup"
+  }
+]
